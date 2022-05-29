@@ -1,0 +1,221 @@
+/NAVBAR/
+body{
+	
+	font-family:calibri !important;
+}
+#carouselExampleControls .fa-angle-left{
+    font-size: 80px;
+    margin-right: 190px;
+    color: #fff !important;
+    margin-top: 0px;
+    color: rgba(10, 0, 0, 0.7) !important;
+    padding-left:40px;
+    backdrop-filter: blur(20px);
+}
+#carouselExampleControls .fa-angle-right{
+    font-size: 80px;
+    margin-left: 160px;
+    color: #fff !important;
+    margin-top: 0px;
+    color: rgba(10, 0, 0, 0.7) !important;
+    width: 100px;
+    backdrop-filter: blur(20px);
+
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .fas{
+        color: black !important;
+        cursor:context-menu !important;
+        font-size: 20px !important;
+
+    }
+    .bottom-nav{
+        background: white !important; 
+    }
+
+    
+    .navbar-brand img{
+        height: 70px !important;
+        margin-left: 35px !important;        
+    }
+}
+@media screen and (min-width:1024px){
+    .fa,img{
+        color: white !important;
+        font-size: 1px !important;
+        
+    }
+    .bottom-nav{
+        width: 1px !important;
+        height: 1px !important;
+    }
+    
+}
+
+.bottom-nav{
+    cursor:default !important;
+}
+
+/Cards/
+h2,h4{
+    font-weight: 400;    
+}
+.card1,.card2,.card3{
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+}
+.btn-primary{
+    font-weight: 500 !important;
+}
+.card1{
+background: #cff0ea;
+}
+.card2{
+background: #ffe294;
+}
+.card3{
+    background: #cff0ea;
+}
+ .img1,.img2,.img3{
+    height: 140px !important;
+    width: 100px !important;
+    margin-left: 280px;
+    margin-top:-70px;
+}
+
+
+.card1 button{
+    background:#3bb896;
+    color: #fff;
+    font-weight: 700;
+    margin-top: -100px;
+}
+
+.btn-primary{
+    background:#3bb896;
+    color: #fff;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.card3 button{
+    background:#3bb896;
+    color: #fff;
+    font-weight: 700;
+    margin-top: -100px;
+}
+.card-group{
+    width:1300px ;
+    padding-left: 40px;
+}
+.first-banner,.second-banner,.third-banner,.four-banner{
+    width: 100% ;
+    height: 100% ;
+}
+
+
+@media screen and (max-width:650px) {
+    .card1,.card2,.card3{
+        height: 80px;
+    }
+
+    .card-group{
+        width:380px;
+        margin-left: -10px;
+
+    }
+    .card_2,.card_3{
+        margin-left: -1px !important;
+    }
+    .card_3 .card-body .btn-primary{
+        margin-bottom: -10px !important;
+    }
+    .card_2 .card-body .btn-primary{
+        margin-bottom: -10px !important;
+    }
+       
+        .btn-primary{
+        background:#3bb896;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+    .img1,.img2,.img3{
+        height: 70px !important;
+        width: 70px !important;
+        margin-left: 270px;
+        margin-top:-50px;
+    }   
+    .btn-primary{
+        margin-top: -10px !important;
+    }
+    .btn-1{
+        margin-top: -19px !important;
+
+    }
+    .img1{
+        margin-left: 230px !important;
+        height: 90px !important;
+        width: 90px !important;
+    }
+    .card_1 .card-body .btn-primary{
+        margin-bottom: 10px !important;
+         
+    }
+    .first-banner,.second-banner,.third-banner,.four-banner{
+        width:100% !important;
+        height: 100px  !important;
+    }
+    .pill1{
+        padding-right: 200px;
+        align-items: center !important;
+        text-decoration: none !important;
+        border: none !important;
+    }
+  
+   .five-banner .card{
+       margin-left:20% !important;
+   }
+   .five-banner h3{
+       margin-left: 10%;
+   }
+}
+/Pills/
+
+
+.card{
+    border: none !important;
+}
+           
+@media screen and (max-width:1085px) {
+    .footer-items{
+        width: 50%;
+    }
+}
+@media screen and (max-width:650px) {
+    .footer-items{
+        width: 100%;
+    }
+    .fa-angle-left{
+        margin-left: 140px !important;
+    }
+    .fa-angle-right{
+        margin-right: 140px !important;
+    }
+    .d-block {
+       margin-top: 10px !important;
+    }
+    .line1,.line2,.line3{
+        margin-right: 980px !important;
+    }
+}
+
+
+
+/Wallet/

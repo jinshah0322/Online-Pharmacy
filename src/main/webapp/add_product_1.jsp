@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" errorPage="error_product_add.jsp"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EasyPharmacy</title>
+</head>
+<body>
+	<c:set var="pid" value="${param.id}" scope="request"></c:set>
+	<c:set var="pname" value="${param.pn}" scope="request"></c:set>
+	<c:set var="pp" value="${param.pp}" scope="request"></c:set>
+	<c:set var="image" value="${param.img}" scope="request"></c:set>
+	<c:set var="pd" value="${param.desc}" scope="request"></c:set>
+	<c:set var="q" value="${param.quan }" scope="request"></c:set>
+	<sql:setDataSource var="con" driver="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3307/project" user="root" password="root" />
+	<sql:update dataSource="${con}" var="count">  
+		INSERT INTO products VALUES(?,?,?,?,?,?);  
+		<sql:param value="${pid}"></sql:param>
+		<sql:param value="${pname}"></sql:param>
+		<sql:param value="${pp}"></sql:param>
+		<sql:param value="${image}"></sql:param>
+		<sql:param value="${pd}"></sql:param>
+		<sql:param value="${q }"></sql:param>
+	</sql:update>
+	<c:if test="${count==1}">
+		<jsp:forward page="success_productadd.jsp"></jsp:forward>
+	</c:if>
+</body>
+</html>

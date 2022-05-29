@@ -1,0 +1,56 @@
+body{
+    background: url(../images/contactus.jpg);
+    background-repeat: no-repeat ;
+}
+
+.nav-link{
+    margin-top: 0px !important;
+}
+
+
+.contact{
+    color:#223a66;
+    font-family: 'Varela Round',sans-serif;
+    margin-left: 80px;
+    font-weight: 400;
+}
+.btn-info{
+    background: #223a66 !important  ;
+}
+
+.reach_us{
+    color:#223a66;
+    font-family: 'Varela Round',sans-serif;
+    margin-left:40px;
+    font-weight: 400;
+}
+.line{
+    width: 120px;
+    margin-left: 115px;
+    height: 1px;
+    background: #223a66;
+}
+.line_1{
+    width: 100px;
+    margin-left: 65px;
+    height: 1px;
+    background: #223a66;
+}
+
+.btn-info:hover{
+    background: #355a9e !important;
+}
+@media screen and (max-width:650px) {
+    .reachus{
+        padding-left: 15% !important;
+    }
+    .reach_us{
+        padding-left: 10% !important;
+    }
+    .line_1{
+        margin-left: 105px;
+
+    }
+
+}
+

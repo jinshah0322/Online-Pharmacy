@@ -1,0 +1,9 @@
+
+.card{
+	box-shadow: none !important;
+}
+
+.log_in:hover{
+	color: black !important;
+	background: none !important;
+}

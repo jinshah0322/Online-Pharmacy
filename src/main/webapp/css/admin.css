@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+	overflow-x:hidden;
+}
+.nav a{
+	margin-left:2vw !important;
+	font-size:15px !important;
+	border-radius:0px !important;	
+	margin-top:-2px !important;
+}
+.nav-link{
+	color:#38a688 !important;
+	background:#fff !important;
+	}
+.nav-link:focus{
+		background:#38a688 !important;
+	color:#fff !important;
+}
+ .side-navs i{
+	font-size:15px !important;
+}
+.navbar i{
+	font-size:30px !important;
+}
+.nav-icons i{
+	font-size:23px !important;
+	margin-left:15px;
+	color:#000;
+}
+.icons{
+	margin-right:23vw;
+}
+.side-navs{
+	width:20vw;
+}
+.card-title{
+	font-weight:700 !important;
+	color:#000 !important;
+	font-size:30px !important;
+}
+.card{
+	border:1px solid #c5ded7 !important;
+}
